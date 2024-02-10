@@ -1,0 +1,808 @@
+.last-matchs-stats-profile {
+	width: 100%;
+	float: left;
+	margin-top: 8px;
+}
+.last-matchs-stats-profile > hgroup {
+	width: 100%;
+	float: left;
+	background-color: #6e757e;
+	height: 30px;
+}
+.last-matchs-stats-profile > hgroup .__title {
+	float: left;
+	line-height: 30px;
+	margin-left: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.last-matchs-stats-profile > hgroup .__desc {
+	float: right;
+	line-height: 30px;
+	margin-right: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+}
+.last-matchs-stats-profile > li {
+	position: relative;
+	height: 29px;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #e7ecee;
+	background-color: #f1f4f5;
+}
+.last-matchs-stats-profile >  li .__name-of-match {
+	font-size: 14px;
+	color: #595959;
+	float: left;
+	margin-left: 8px;
+	line-height: 29px;
+}
+.last-matchs-stats-profile >  li time {
+	float: right;
+	margin-right: 8px;
+	line-height: 29px;
+	color: #595959;
+}
+.last-matchs-stats-profile > li .__s4et {
+    position: absolute;
+    width: 275px;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+}
+.last-matchs-stats-profile > li .__s4et > li {
+	width: 50%;
+	float: left;
+}
+.last-matchs-stats-profile > li .__s4et > li {
+	width: 50%;
+	float: left;
+}
+.last-matchs-stats-profile > li .__s4et > li a {
+	line-height: 29px;
+	color: #5b6264;
+	font-size: 14px;
+	font-weight: bold;
+}
+.last-matchs-stats-profile > li .__s4et > li span {
+	margin-top: 5px;
+	padding: 3px 4px;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: bold;
+}
+.last-matchs-stats-profile > li .__s4et > li .win {
+	background-color: #379e3b;
+}
+.last-matchs-stats-profile > li .__s4et > li .lose {
+	background-color: #b2b2b2;
+}
+
+.last-matchs-stats-profile > li .__s4et > li:first-child a{
+	float: right;
+	margin-right: 5px;
+}
+.last-matchs-stats-profile > li .__s4et > li:first-child span{
+	margin-right: 3px;
+	float: right;
+}
+.last-matchs-stats-profile > li .__s4et > li:last-child a{
+	float: left;
+	margin-left: 5px;
+}
+.last-matchs-stats-profile > li .__s4et > li:last-child span{
+	float: left;
+	margin-left: 3px;
+}
+
+
+.best-heroes-stats-dota2 {
+	width: 49%;
+	float: left;
+	margin-top: 8px;
+	height: 247px;
+	border-radius: 0 0 2px 2px;
+	background-color: #f1f4f5;
+}
+.best-heroes-stats-dota2 > hgroup {
+	width: 100%;
+	float: left;
+	background-color: #6e757e;
+	height: 30px;
+}
+.best-heroes-stats-dota2 > hgroup .__title {
+	float: left;
+	line-height: 30px;
+	margin-left: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.best-heroes-stats-dota2 > hgroup .__desc {
+	float: right;
+	line-height: 30px;
+	margin-right: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+}
+.best-heroes-stats-dota2 > li {
+	position: relative;
+	width: 100%;
+	height: 42px;
+	float: left;
+	background-color: #f1f4f5;
+}
+.best-heroes-stats-dota2 > li .__cont {
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 7px;
+	background-color: #e4e8e9;
+	height: 35px;
+}
+.best-heroes-stats-dota2 > li .__cont img {
+	float: left;
+	height: 35px;
+}
+.best-heroes-stats-dota2 > li .__cont .progress {
+	background-color: #d5d7da;
+	height: 35px;
+	width: calc(100% - 62px);
+	float: left;
+}
+.best-heroes-stats-dota2 > li .__cont .progress span{
+	position: absolute;
+	margin-left: 8px;
+	color: #6e757e;
+}
+.best-heroes-stats-dota2 > li .__cont .progress span:first-child{
+	margin-top: 3px;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.best-heroes-stats-dota2 > li .__cont .progress span:last-child{
+	margin-top: 18px;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.best-items-dota2 {
+	width: 49%;
+	float: left;
+	margin-top: 8px;
+	border-radius: 0 0 2px 2px;
+	margin-left: 2%;
+	height: 247px;
+	background-color: #f1f4f5;
+}
+.best-items-dota2 > hgroup {
+	width: 100%;
+	float: left;
+	background-color: #6e757e;
+	height: 30px;
+}
+.best-items-dota2 > hgroup .__title {
+	float: left;
+	line-height: 30px;
+	margin-left: 4px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.best-items-dota2 > hgroup .__desc {
+	float: right;
+	line-height: 30px;
+	margin-right: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+}
+.best-items-dota2 > li {
+	position: relative;
+	width: 100%;
+	height: 42px;
+	float: left;
+	background-color: #f1f4f5;
+}
+.best-items-dota2 > li .__cont {
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 7px;
+	background-color: #e4e8e9;
+	height: 35px;
+}
+.best-items-dota2 > li .__cont img {
+	float: left;
+	height: 35px;
+}
+.best-items-dota2 > li .__cont .progress {
+	background-color: #d5d7da;
+	height: 35px;
+	width: calc(100% - 47px);
+	float: left;
+}
+.best-items-dota2 > li .__cont .progress span{
+	position: absolute;
+	margin-left: 8px;
+	color: #6e757e;
+}
+.best-items-dota2 > li .__cont .progress span:first-child{
+	margin-top: 3px;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.best-items-dota2 > li .__cont .progress span:last-child{
+	margin-top: 18px;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.rating-stats-dota2 {
+	width: 49%;
+	margin-top: 6px;
+	border-radius: 2px;
+	float: left;
+	background-color: #dee8eb;
+	height: 35px;
+	text-align: center;
+}
+.rating-stats-dota2 h2 {
+	color: #6e757e;
+	font-size: 15px;
+	position: relative;
+	font-weight: bold;
+	line-height: 35px;
+}
+.rating-stats-dota2 h2:before {
+	content: "";
+	background-image: url(../img/icon-rating-stats.png);
+	height: 18px;
+	width: 22px;
+	margin-top: 7px;
+	position: absolute;
+	margin-left: -27px;
+}
+
+.main-stats-dota2 {
+	width: 49%;
+	position: relative;
+	margin-top: 6px;
+	float: left;
+	border-radius: 2px;
+	margin-left: 2%;
+	background-color: #f1f4f5;
+	height: 35px;
+	text-align: center;
+}
+.main-stats-dota2 .progress {
+	background-color: #dee8eb;
+	width: 100%;
+	height: 35px;
+	float: left;
+}
+.main-stats-dota2 h2 {
+	color: #6e757e;
+	font-size: 14px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.stats-of-maps-csgo {
+	width: 49%;
+	float: left;
+	margin-top: 8px;
+	border-radius: 0 0 2px 2px;
+	background-color: #f1f4f5;
+}
+.stats-of-maps-csgo > hgroup {
+	width: 100%;
+	float: left;
+	background-color: #6e757e;
+	height: 30px;
+}
+.stats-of-maps-csgo > hgroup .__title {
+	float: left;
+	line-height: 30px;
+	margin-left: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.stats-of-maps-csgo > hgroup .__desc {
+	float: right;
+	line-height: 30px;
+	margin-right: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+}
+.stats-of-maps-csgo > footer {
+	float: left;
+	width: 100%;
+	background-color: #e4e4e4;
+	margin-top: 5px;
+	height: 25px;
+	text-align: center;
+	transition:all 0.2s;
+}
+.stats-of-maps-csgo > footer:hover {
+  	background-color: #e0e5e7;
+  	transition:all 0.2s;
+}
+.stats-of-maps-csgo > footer a {
+	text-decoration: none;
+}
+.stats-of-maps-csgo > footer a h6{
+	line-height: 25px;
+	font-weight: normal;
+	font-size: 12px;
+	cursor: pointer;
+}
+.stats-of-maps-csgo > ul {
+	width: calc(100% - 12px);
+	float: left;
+	margin-left: 6px;
+}
+.stats-of-maps-csgo > ul li {
+	width: 100%;
+	float: left;
+	line-height: 24px;
+	padding-top: 3px;
+	border-bottom: 1px solid #d1d1d1;
+	border-top: 1px solid #fff;
+}
+.stats-of-maps-csgo > ul li:first-child {
+	border-top: none;
+}
+.stats-of-maps-csgo > ul li:last-child {
+	border-bottom: none;
+}
+.stats-of-maps-csgo > ul li .desc {
+	float: left;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+.stats-of-maps-csgo > ul li .value {
+	float: left;
+	font-size: 12px;
+	color: #516c90;
+	max-width: 3px;
+}
+.stats-of-maps-csgo .preview {
+	float: left;
+	height: 105px;
+	padding: 8px 0;
+	width: 95%;
+	position: relative;
+	margin-left: 2.5%;
+}
+.stats-of-maps-csgo .preview img {
+	float: left;
+	width: 100%;
+	z-index: 10;
+}
+.stats-of-maps-csgo .preview a {
+	position: absolute;
+	top:13px;
+	background:rgba(0,0,0,0.8);
+	line-height: 20px;
+	padding: 0 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+}
+.stats-of-maps-csgo .preview a:hover {
+	text-decoration: none;
+}
+.stats-of-maps-csgo .preview [role="left"] {
+	left: 20px;
+}
+.stats-of-maps-csgo .preview [role="left"]:before {
+	content: '';
+	position: absolute;
+	margin-left: -20px;
+	border-top: 10px solid transparent;
+    border-right: 12px solid rgba(0,0,0,0.8);
+    border-bottom: 10px solid transparent;
+}
+.stats-of-maps-csgo .preview [role="right"] {
+	right: 20px;
+}
+.stats-of-maps-csgo .preview [role="right"]:after {
+	content: '';
+	position: absolute;
+	margin-left: 8px;
+	border-top: 10px solid transparent;
+    border-left: 12px solid rgba(0,0,0,0.8);
+    border-bottom: 10px solid transparent;
+}
+.stats-of-maps-csgo .preview hgroup {
+	position: absolute;
+	bottom: 15px;
+	left:7px;
+}
+.stats-of-maps-csgo .preview hgroup span {
+	line-height: 26px;
+	padding: 0 9px;
+	color: #000000;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	background:rgba(255,255,255,0.9);
+}
+
+.stats-of-maps-csgo .preview hgroup p {
+	line-height: 26px;
+	padding: 0 9px;
+	color: #fff;
+	float: left;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background:rgba(0,0,0,0.9);
+}
+
+.stats-of-weapons-csgo {
+	width: 49%;
+	float: left;
+	margin-top: 8px;
+	margin-left: 2%;
+	border-radius: 0 0 2px 2px;
+	background-color: #f1f4f5;
+}
+.stats-of-weapons-csgo > hgroup {
+	width: 100%;
+	float: left;
+	background-color: #6e757e;
+	height: 30px;
+}
+.stats-of-weapons-csgo > hgroup .__title {
+	float: left;
+	line-height: 30px;
+	margin-left: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.stats-of-weapons-csgo > hgroup .__desc {
+	float: right;
+	line-height: 30px;
+	margin-right: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+}
+.stats-of-weapons-csgo > footer {
+	float: left;
+	width: 100%;
+	background-color: #e4e4e4;
+	margin-top: 5px;
+	height: 25px;
+	text-align: center;
+	transition:all 0.2s;
+}
+.stats-of-weapons-csgo > footer:hover {
+  	background-color: #e0e5e7;
+  	transition:all 0.2s;
+}
+.stats-of-weapons-csgo > footer a {
+	text-decoration: none;
+}
+.stats-of-weapons-csgo > footer a h6{
+	line-height: 25px;
+	font-weight: normal;
+	font-size: 12px;
+	cursor: pointer;
+}
+.stats-of-weapons-csgo > ul {
+	width: calc(100% - 12px);
+	float: left;
+	margin-left: 6px;
+}
+.stats-of-weapons-csgo > ul li {
+	width: 100%;
+	float: left;
+	line-height: 24px;
+	padding-top: 3px;
+	border-bottom: 1px solid #d1d1d1;
+	border-top: 1px solid #fff;
+}
+.stats-of-weapons-csgo > ul li:first-child {
+	border-top: none;
+}
+.stats-of-weapons-csgo > ul li:last-child {
+	border-bottom: none;
+}
+.stats-of-weapons-csgo > ul li .desc {
+	float: left;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+.stats-of-weapons-csgo > ul li .value {
+	float: left;
+	font-size: 12px;
+	color: #516c90;
+	max-width: 3px;
+}
+.stats-of-weapons-csgo .preview {
+	float: left;
+	height: 105px;
+	padding: 8px 0;
+	width: 95%;
+	position: relative;
+	margin-left: 2.5%;
+}
+.stats-of-weapons-csgo .preview img {
+	float: left;
+	width: 100%;
+	z-index: 10;
+}
+.stats-of-weapons-csgo .preview a {
+	position: absolute;
+	top:13px;
+	background:rgba(0,0,0,0.8);
+	line-height: 20px;
+	padding: 0 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+}
+.stats-of-weapons-csgo .preview a:hover {
+	text-decoration: none;
+}
+.stats-of-weapons-csgo .preview [role="left"] {
+	left: 20px;
+}
+.stats-of-weapons-csgo .preview [role="left"]:before {
+	content: '';
+	position: absolute;
+	margin-left: -20px;
+	border-top: 10px solid transparent;
+    border-right: 12px solid rgba(0,0,0,0.8);
+    border-bottom: 10px solid transparent;
+}
+.stats-of-weapons-csgo .preview [role="right"] {
+	right: 20px;
+}
+.stats-of-weapons-csgo .preview [role="right"]:after {
+	content: '';
+	position: absolute;
+	margin-left: 8px;
+	border-top: 10px solid transparent;
+    border-left: 12px solid rgba(0,0,0,0.8);
+    border-bottom: 10px solid transparent;
+}
+.stats-of-weapons-csgo .preview hgroup {
+	position: absolute;
+	bottom: 15px;
+	left:7px;
+}
+.stats-of-weapons-csgo .preview hgroup span {
+	line-height: 26px;
+	padding: 0 9px;
+	color: #000000;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	background:rgba(255,255,255,0.9);
+}
+
+.stats-of-weapons-csgo .preview hgroup p {
+	line-height: 26px;
+	padding: 0 9px;
+	color: #fff;
+	float: left;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background:rgba(0,0,0,0.9);
+}
+
+.home-info[role="stats"] {
+	float: left;
+	width:49%;
+	margin-top: 8px;
+	margin-left: 0;
+}
+.home-info[role="stats"] > hgroup {
+	width: 100%;
+	float: left;
+
+	background-color: #6e757e;
+	height: 30px;
+}
+.home-info[role="stats"] > hgroup span{
+	float: left;
+	line-height: 30px;
+	margin-left: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.home-info[role="stats"] ul{
+	width: 100%;
+	float: left;
+}
+.home-info[role="stats"] ul li{ 
+	transition:all 0.2s;
+	min-height: 30px;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #e7ecee;
+	background-color: #f1f4f5;
+}
+.home-info[role="stats"] ul li:hover {
+	transition:all 0.2s;
+	background-color: #e7ecee;
+} 
+.home-info[role="stats"] ul li h5 {
+	color:#707e82;
+	line-height: 30px;
+	float: left;
+	margin-left: 10px;
+	font-size: 11px;
+	font-weight: normal;
+	transition:all 0.2s;
+}
+.home-info[role="stats"] ul li .value {
+	color:#475052;
+	margin-top: 4px;
+	padding: 4px 6px;
+	font-size: 11px;
+	font-weight: bold;
+	float: right;
+	margin-right: 5px;
+	transition:all 0.2s;
+}
+
+.scin-stats-csgo {
+	width: 49%;
+	float: left;
+	margin-top: 8px;
+	border-bottom: 1px solid #e7ecee;
+	margin-left: 2%;
+	height: 338px;
+	border-radius: 0 0 2px 2px;
+	background: url(../img/stats/csgo/scin.jpg) center 60px #f1f4f5 ;
+	background-repeat: no-repeat;
+}
+.scin-stats-csgo > hgroup {
+	width: 100%;
+	float: left;
+	background-color: #6e757e;
+	height: 30px;
+}
+.scin-stats-csgo > hgroup .__title {
+	float: left;
+	line-height: 30px;
+	margin-left: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.scin-stats-csgo > hgroup .__desc {
+	float: right;
+	line-height: 30px;
+	margin-right: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+}
+.scin-stats-csgo .__info {
+	float: left;
+	position: relative;
+	height: calc(100% - 30px);
+	width: 100%;
+}
+.scin-stats-csgo .__info li {
+	position: absolute;
+}
+.scin-stats-csgo .__info li span {
+	float: left;
+	line-height: 14px;
+	padding: 0 4px;
+	border-radius: 4px;
+	font-size: 11px;
+}
+.scin-stats-csgo .__info li span:first-child {
+	background-color: #dadada;
+	color: #374250;
+}
+.scin-stats-csgo .__info li span:last-child {
+	background-color: #374250;
+	margin-left: 3px;
+	color: #fff;
+}
+.scin-stats-csgo .__info li[role="head"] {
+	left:47%;
+	right: 0;
+	top:22px;
+}
+.scin-stats-csgo .__info li[role="head"] span:last-child:after {
+	background-image: url(../img/stats/csgo/head.png);
+	width: 50px;
+	height: 20px;
+	content: '';
+	position: absolute;
+	margin-top: 12px;
+	margin-left: -82px;
+}
+.scin-stats-csgo .__info li[role="body"] {
+	left:5%;
+	right: 0;
+	top:162px;
+}
+.scin-stats-csgo .__info li[role="body"] span:first-child:after {
+	background-image: url(../img/stats/csgo/body.png);
+	width: 63px;
+	height: 44px;
+	content: '';
+	position: absolute;
+	margin-top: -47px;
+	margin-left: 10px;
+}
+.scin-stats-csgo .__info li[role="left-hand"] {
+	left:5%;
+	right: 0;
+	top:58px;
+}
+.scin-stats-csgo .__info li[role="left-hand"] span:first-child:after {
+	background-image: url(../img/stats/csgo/left-hand.png);
+	width: 46px;
+	height: 28px;
+	content: '';
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 26px;
+}
+.scin-stats-csgo .__info li[role="right-hand"] {
+	left:60%;
+	right: 0;
+	top:58px;
+}
+.scin-stats-csgo .__info li[role="right-hand"] span:first-child:after {
+	background-image: url(../img/stats/csgo/right-hand.png);
+	width: 46px;
+	height: 28px;
+	content: '';
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -36px;
+}
+.scin-stats-csgo .__info li[role="left-foot"] {
+	left:3%;
+	right: 0;
+	top:200px;
+}
+.scin-stats-csgo .__info [role="left-foot"] span:first-child:after {
+	background-image: url(../img/stats/csgo/left-foot.png);
+	width: 47px;
+	height: 29px;
+	content: '';
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 26px;
+}
+.scin-stats-csgo .__info li[role="right-foot"] {
+	left:62%;
+	right: 0;
+	top:200px;
+}
+.scin-stats-csgo .__info li[role="right-foot"] span:first-child:after {
+	background-image: url(../img/stats/csgo/right-foot.png);
+	width: 46px;
+	height: 29px;
+	content: '';
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -45px;
+}

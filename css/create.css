@@ -1,0 +1,104 @@
+.ui-create-show {
+	width: 98%;
+	float: left;
+	margin-left: 1%;
+	margin-top: 8px;
+}
+.ui-create-show .top-create {
+	width: 100%;
+	float: left;
+	height: 40px;
+	background-color: #455464;
+}
+.ui-create-show .top-create h1 {
+	color: #fff;
+	float: left;
+	margin-left: 15px;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.ui-create-show .create-main {
+	padding-top: 8px;
+	width: 100%;
+	float: left;
+	background-color: #f1f4f5;
+	padding-bottom: 8px;
+}
+.ui-create-show .create-main aside {
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+.ui-create-show .create-main aside .name-of-this-input {
+	float: left;
+	line-height: 25px;
+	color: #5b5d61;
+	font-size: 14px;
+	width: 200px;
+	text-align: right;
+}
+.ui-create-show .create-main aside .add {
+	background-color: #ECECEC;
+	width: 312px;
+	padding-left: 8px;
+	float: left;
+	margin-top: 0;
+	height: 30px;
+	border:1px solid #c4cacc;
+	margin-left: 10px;
+}
+.ui-create-show .create-main aside .add:focus {
+	background-color: #fff;
+}
+.ui-create-show .create-main aside .add-file {
+	background-color: #ECECEC;
+	width: 312px;
+	padding-left: 8px;
+	float: left;
+	margin-top: 0;
+	height: 30px;
+	padding-top: 7px;
+	border:1px solid #c4cacc;
+	margin-left: 10px;
+}
+.ui-create-show .create-main aside .add-file:focus {
+	background-color: #fff;
+}
+.ui-create-show .create-main aside .desc-of-inp  {
+	color: #9c9c9c;
+	float: left;
+	line-height: 25px;
+	font-size: 12px;
+	margin-left: 8px;
+}
+.ui-create-show .create-main aside .desc-of-inp > .but-big {
+	margin-left: 0px;
+	height: 25px;
+}
+.ui-create-show .create-main aside .but-big {
+
+	float: left;
+	margin-left: 210px;
+}
+.ui-create-show .create-main aside .sel-set {
+	float: left;
+	margin-top: 0;
+	transition:all 0.2s;
+	border-radius: 0 4px 4px 0;
+	padding-left: 8px;
+	height: 30px;
+	resize:none;
+	margin-left: 10px;
+	background-color: #ECECEC;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-khtml-border-radius:2px;
+	border:1px solid #c4cacc;
+
+	resize:none;
+	width: 323px;
+}
+.ui-create-show .create-main aside .sel-set:focus {
+	background-color: #fff;
+}

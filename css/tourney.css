@@ -1,0 +1,571 @@
+.main-tourney {
+	margin-top: 8px;
+	width: 98%;	
+	float: left;
+	margin-left: 1%;
+}
+.main-tourney .block-tourney {
+	
+	float: left;
+	padding: 10px 0;
+}
+.main-tourney .block-tourney .logo-game {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+.main-tourney .block-tourney .ava {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+}
+.main-tourney .block-tourney .cont {
+	float:left;
+	width: 67%;
+}
+.main-tourney .block-tourney .cont header {
+	width: 100%;
+	float: left;
+	margin-left:2px;
+}
+.main-tourney .block-tourney .cont header .nick {
+	font-size:14px;
+	color:#4d4e54;
+	font-weight: bold;
+	float: left;
+	margin-left: 6px;
+	transition:all 0.2s;
+}
+.main-tourney .block-tourney .cont header .nick:hover {
+	color: #26272d;
+	transition:all 0.2s;
+	text-decoration: none;
+}
+.main-tourney .block-tourney .cont header .time {
+	float: right;
+	font-size:12px;
+	color:#8f8f8f;
+	font-weight:normal;
+}
+.main-tourney .block-tourney .cont header .live {
+	color:#d04646;
+	font-weight: bold;
+}
+.main-tourney .block-tourney .cont .short-info {
+	margin-left: 8px;
+	float: left;
+	margin-top: 6px;
+	width: 100%;
+}
+.main-tourney .block-tourney .cont .short-info li {
+	line-height: 20px;
+	margin-bottom: 3px;
+	width: 100%;
+	float: left;
+}
+.main-tourney .block-tourney .cont .short-info li h6 {
+	margin-left: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	color: #525a66;
+}
+.main-tourney .block-tourney .cont .short-info li i {
+	float: left;
+}
+.main-tourney .block-tourney .cont .short-info li:first-child i {
+	margin-left: -4px;
+}
+.main-tourney .block-tourney .cont .short-info li:last-child h6 {
+	margin-top: -3px;
+	font-weight: normal;
+	color: #8f8f8f;
+	margin-left: 2px;
+}
+.info-tou {
+	width: 98%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 1%;
+}
+.info-tou header{
+	background-color: #6e757e;
+
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+.info-tou header .title {
+	font-size: 14px;
+	color: #fff;
+	float: left;
+	margin-left: 10px;
+}
+.info-tou header .more-info {
+	font-size: 12px;
+	color: #fff;
+	float: right;
+	font-weight: normal;
+	margin-right: 12px;
+}
+.info-tou ul {
+	width: 100%;
+	float: left;
+}
+.info-tou ul li {
+	background-color: #f1f4f5;
+	border-bottom: 1px solid #e7ecee;
+	transition:all 0.2s;
+	height: 29px;
+	width: 100%;
+
+}
+.info-tou ul li h5{
+	font-size: 14px;
+}
+.info-tou ul li .description {
+	font-weight: normal;
+	float: left;
+	color: #707e82;
+	font-size: 14px;
+	margin-left: 11px;
+	line-height: 29px;
+}
+.info-tou ul li .value {
+	font-size: 14px;
+	float: right;
+	font-weight: bold;
+	color: #475052;
+	padding: 3px 6px;
+	margin-top: 3px;
+	border-radius: 3px;
+	margin-right: 7px;
+	transition:all 0.2s;
+}
+
+.info-tou ul li:hover {
+	background-color: #e7ecee;
+	transition:all 0.2s;
+}
+.info-tou ul li:hover .value {
+	transition:all 0.2s;
+	background-color: #d1d4d8;
+}
+.info-tou ul li:hover .description {
+	transition:all 0.2s;
+	color:#3b4345;
+}
+
+.prize-ui {
+	width: 98%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 1%;
+}
+.prize-ui header{
+	background-color: #6e757e;
+	height: 30px;
+	width: 100%;
+	float: left;
+	line-height: 30px;
+}
+.prize-ui header .title {
+	font-size: 14px;
+	color: #fff;
+	float: left;
+	margin-left: 10px;
+}
+.prize-ui header .more-info {
+	font-size: 12px;
+	color: #fff;
+	float: right;
+	font-weight: normal;
+	margin-right: 10px;
+}
+
+.prize-ui .subjects{
+	width: 100%;
+	background-color: #f1f4f5;
+	height: 114px;
+	float: left;
+	position: relative;
+}
+.prize-ui .subjects img {
+	width: 96px;
+	height: 96px;
+	border-radius: 4px;
+	background-color: #e0e0e0;
+	margin-top: 8px;
+	margin-left: 7px;
+	margin-right: 7px;
+	transition:all 0.2s;
+}
+.prize-ui .subjects img:hover {
+	background-color: #d7d7d7;
+	transition:all 0.2s;
+}
+.prize-ui a footer {
+	float: left;
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #e7ecee;
+	transition:all 0.2s;
+}
+.prize-ui a footer h6 {
+	color:#7b8182;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+}
+.prize-ui a footer:hover {
+	background-color: #dce0e2;
+	transition:all 0.2s;
+}
+.tour-stream {
+	margin-left: 1%;
+	margin-top: 10px;
+	width: 98%;
+	float: left;
+}
+.tour-stream header {
+	float: left;
+	width: 100%;
+	height: 30px;
+	background-color: #2f3741;
+	color: #fff;
+}
+.tour-stream header .what-it {
+	float: left;
+	margin-left: 10px;
+	margin-top: 7px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.tour-stream header .from {
+	float: right;
+	margin-right: 10px;
+	margin-top: 7px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.tour-stream header .from b {
+	color: #f86a33;
+	font-weight: bold;
+}
+
+.participant {
+	width: 180px;
+	background-color: #f1f4f5;
+	transition:all 0.4s;
+	height: 54px;
+	float: left;
+	margin-top: 7px;
+	margin-left: 8px;
+}
+.participant:hover {
+	background-color: #e6ecee;
+	transition:all 0.4s;
+	
+}
+.participant .ava-participant{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 7px;
+}
+.participant .information{
+	width: 70%;
+	float: right;
+}
+
+
+.participants-table {
+	width: 98%;
+	margin-left: 1%;
+	float: left;
+}
+.participants-table thead {
+	font-size: 14px;
+	height: 27px;
+	color: #fff;
+	background-color: #6e757e;
+}
+.participants-table thead tr {
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+}
+.participants-table thead tr th {
+	font-weight: bold;
+	font-size: 14px;
+}
+.participants-table thead tr th:first-child {
+	width: 45%;
+	text-align: left;
+	padding-left: 2%;
+}
+.participants-table thead tr th:nth-child(2) {
+	width: 11%;
+	font-size: 12px;
+	text-align: center;
+}
+.participants-table thead tr th:nth-child(3) {
+	width: 11%;
+	font-size: 12px;
+	text-align: center;
+}
+
+.participants-table tbody {
+	height: 35px;
+	background-color: #f1f4f5;
+	width: 100%;
+	border-bottom: 1px solid #e7ecee;
+}
+.participants-table tbody tr {
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #e7ecee;
+}
+.participants-table tbody tr td {
+	font-weight: bold;
+	font-size: 14px;
+}
+.participants-table tbody tr td:first-child {
+	width: 45%;
+	text-align: left;
+	padding-left: 2%;
+}
+.participants-table tbody tr td:nth-child(2) {
+	width: 11%;
+	font-size: 12px;
+	text-align: center;
+}
+.participants-table tbody tr td:nth-child(3) {
+	width: 11%;
+	font-size: 12px;
+	text-align: center;
+}
+.item-main {
+	margin-top: 8px;
+	width: 98%;	
+	margin-left: 1%;
+	float: left;
+}
+.item-main .block-item {
+	float: left;
+	padding: 10px 0;
+	border-radius: 4px;
+}
+.item-main .block-item .logo-game {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+.item-main .block-item .img-item {
+	float: left;
+	margin-left: 10px;
+	width: 96px;
+	padding: 4px;
+	border-radius: 4px;
+	background-color: #e3e3e3;
+	margin-right: 7px;
+	transition: all 0.2s;
+}
+.item-main .block-item header {
+	width: 100%;
+	float: left;
+	margin-left:2px;
+}
+.item-main .block-item header .nick {
+	font-size:14px;
+	color:#4d4e54;
+	font-weight: bold;
+	float: left;
+	margin-left: 6px;
+	transition:all 0.2s;
+}
+.item-main .block-item header .nick:hover {
+	color: #26272d;
+	transition:all 0.2s;
+	text-decoration: none;
+}
+.item-main .block-item header .live {
+	color:#d04646;
+	font-weight: bold;
+}
+.item-main .block-item .short-info {
+	margin-left: 8px;
+	float: left;
+	margin-top: 3px;
+	width: 77%;
+}
+.item-main .block-item .short-info li {
+	line-height: 20px;
+	margin-bottom: 3px;
+	width: 100%;
+	float: left;
+}
+.item-main .block-item .short-info li h2 {
+	margin-left: 2px;
+	font-size: 16px;
+	float: left;
+	line-height: 25px;
+	color: #333b3d;
+}
+.item-main .block-item .short-info li h6 {
+	font-size: 14px;
+	float: left;
+	font-weight: normal;
+	color: #8f8f8f;
+	margin-left: 2px;
+}
+.item-main .block-item .short-info li:nth-child(2) h6 {
+	font-size: 14px;
+	float: left;
+	font-weight: bold;
+	color: #8f8f8f;
+	margin-left: 2px;
+}
+.prize-main {
+	margin-top: 8px;
+	width: 98%;	
+	margin-left: 1%;
+	float: left;
+}
+.prize-main .prize-top {
+	width: 100%;
+	float: left;
+	background-color: #6e757e;
+	height: 28px;
+}
+.prize-main .prize-top h2 {
+	font-size:14px;
+	float: left;
+	line-height: 28px;
+	margin-left: 8px;
+	color: #fff;
+}
+.prize-main aside {
+	margin-top: 5px;
+	float: left;
+	width: 185px;
+	background-color: #f1f4f5;
+	border-radius: 4px;
+	margin-right: 9px;
+}
+.prize-main aside:last-child {
+	margin-right: 0px;
+}
+.prize-main aside hgroup {
+	width: 100%;
+	height: 28px;
+	float: left;
+}
+.prize-main aside hgroup h2 {
+	font-size:12px;
+	float: left;
+	line-height: 28px;
+	width: 100%;
+	text-align: center;
+}
+.prize-main aside .list-info {
+	width: 96%;
+	margin-left: 4%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+.prize-main aside .list-info li {
+	float: left;
+	width: 100%;
+	color: #8f8f8f;
+	font-size: 14px;
+	height: 20px;
+	margin-bottom: 6px;
+}
+.prize-main aside .list-info li .ava {
+	width: 20px;
+	float: left;
+}
+.prize-main aside .list-info li .parti{
+	font-size: 14px;
+	color: #64676b;
+	float: left;
+	font-weight: bold;
+	line-height: 20px;
+	margin-left: 4px;
+}
+.prize-main .bronze {
+	border-bottom: 2px solid #e7b493;
+}
+.prize-main .bronze hgroup{
+	background-color: #e7b493;
+}
+.prize-main .bronze hgroup h2{
+	color: #8b5233;
+}
+.prize-main .gold {
+	border-bottom: 2px solid #e7e383;
+}
+.prize-main .gold hgroup{
+	background-color: #e7e383;
+}
+.prize-main .gold hgroup h2{
+	color: #6c6931;
+}
+.prize-main .silver {
+	border-bottom: 2px solid #d6dde0;
+}
+.prize-main .silver hgroup{
+	background-color: #d6dde0;
+}
+.prize-main .silver hgroup h2{
+	color: #464a53;
+}
+
+
+/*Dont Work*/
+.tourney_table {
+  width: 98%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.tourney_table a {
+	color:#2e3641;
+}
+.tourney_table tr {
+	background: #f0f0f0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.tourney_table .wait {
+	background: #d6d9db;
+}
+.tourney_table .begin {
+	background: #aebcc9;
+}
+.tourney_table tr td {
+	padding-top: 10px;
+	padding-bottom: 12px;
+	padding-left: 10px;
+}
+.tourney_table tr td h1 {
+	font-size: 14px;
+	float: left;
+	font-weight: normal;
+}
+.tourney_table tr td:nth-child(1) {
+	width: 1px;
+}
+
+.tourney_table tr td:nth-child(5) {
+	width: 30%;
+	text-align: right;
+	padding-right: 10px;
+}

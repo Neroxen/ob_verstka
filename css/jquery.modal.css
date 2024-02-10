@@ -1,0 +1,49 @@
+.modal {
+  position:fixed;
+  background-color: #f1f4f5;
+  padding: 10px;
+  display: table !important;
+  z-index:1030 !important;
+  left: 50% !important;
+  top: 50% !important;
+}
+.modal a.close-modal,.modal .panel_exit {
+  content: "";
+  z-index:20000;
+  background-image: url(../img/close2.png);
+  width: 24px;
+  height: 24px;
+  float: right;
+  margin-right: -45px;
+  opacity: 0.85;
+  text-indent:-9999px;
+  cursor: pointer;
+  transition:all .3s;
+}
+.modal > div {
+  float: left;
+  position: relative;
+}
+.modal form > div {
+  float: left;
+  position: relative;
+}
+.modal-spinner {
+  display: none;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -32px;
+  margin-top: -32px;
+  background: url(spinner.gif) #111 no-repeat center center;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+}
+.jquery-modal.blocker {
+  z-index: 1020 !important;
+}

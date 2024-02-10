@@ -1,0 +1,1 @@
+<li><h2>У вас не указан Steam ID в профиле!</h2><a href="#" class="but-big">Указать Steam ID</a></li>
